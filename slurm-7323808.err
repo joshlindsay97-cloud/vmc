@@ -1,0 +1,24 @@
+/users/mfb21124/vmc/vmc_bosons_parallel.py:264: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+real	78m25.146s
+user	78m7.450s
+sys	0m0.568s
+/users/mfb21124/vmc/vmc_bosons_parallel.py:264: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+real	44m12.281s
+user	87m59.521s
+sys	0m0.838s
+/users/mfb21124/vmc/vmc_bosons_parallel.py:264: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+real	24m49.811s
+user	98m34.530s
+sys	0m1.515s
+/users/mfb21124/vmc/vmc_bosons_parallel.py:264: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+real	15m48.651s
+user	125m1.189s
+sys	0m2.884s
