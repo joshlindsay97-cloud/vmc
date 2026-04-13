@@ -1,2 +1,0 @@
-/users/mfb21124/vmc/vmc_hydrogen.py:146: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
-  plt.show()
