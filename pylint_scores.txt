@@ -1,91 +1,41 @@
 ************* Module vmc_hydrogen
 vmc_hydrogen.py:170:0: C0305: Trailing newlines (trailing-newlines)
-vmc_hydrogen.py:101:15: W0621: Redefining name 'alpha_values' from outer scope (line 156) (redefined-outer-name)
-vmc_hydrogen.py:104:4: W0621: Redefining name 'results' from outer scope (line 162) (redefined-outer-name)
-vmc_hydrogen.py:124:17: W0621: Redefining name 'results' from outer scope (line 162) (redefined-outer-name)
-vmc_hydrogen.py:130:4: W0612: Unused variable 'fig' (unused-variable)
 ************* Module vmc_bosons_serial
-vmc_bosons_serial.py:263:0: C0305: Trailing newlines (trailing-newlines)
-vmc_bosons_serial.py:68:4: C0103: Variable name "R2" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:89:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_serial.py:90:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_serial.py:95:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_serial.py:96:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_serial.py:104:4: C0103: Variable name "R2" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:114:0: C0103: Function name "run_MC" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:114:11: C0103: Argument name "MCcycles" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:114:0: R0914: Too many local variables (16/15) (too-many-locals)
-vmc_bosons_serial.py:121:4: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:131:8: C0103: Variable name "P_trial" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:132:8: C0103: Variable name "P" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:142:12: C0103: Variable name "EL" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:145:12: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:180:0: R0914: Too many local variables (19/15) (too-many-locals)
-vmc_bosons_serial.py:180:20: W0621: Redefining name 'alpha_values' from outer scope (line 245) (redefined-outer-name)
-vmc_bosons_serial.py:180:34: W0621: Redefining name 'beta_values' from outer scope (line 246) (redefined-outer-name)
-vmc_bosons_serial.py:184:4: W0621: Redefining name 'energy_grid' from outer scope (line 248) (redefined-outer-name)
-vmc_bosons_serial.py:185:4: W0621: Redefining name 'variance_grid' from outer scope (line 248) (redefined-outer-name)
-vmc_bosons_serial.py:194:29: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:196:12: C0103: Variable name "E" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:197:12: C0103: Variable name "E2" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:210:17: W0621: Redefining name 'alpha_values' from outer scope (line 245) (redefined-outer-name)
-vmc_bosons_serial.py:210:31: W0621: Redefining name 'beta_values' from outer scope (line 246) (redefined-outer-name)
-vmc_bosons_serial.py:210:44: W0621: Redefining name 'energy_grid' from outer scope (line 248) (redefined-outer-name)
-vmc_bosons_serial.py:212:4: C0103: Variable name "B" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:212:7: C0103: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_serial.py:256:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
-vmc_bosons_serial.py:26:0: C0411: standard import "random.random" should be placed before third party import "numpy.zeros" (wrong-import-order)
+vmc_bosons_serial.py:117:0: R0914: Too many local variables (16/15) (too-many-locals)
+vmc_bosons_serial.py:185:0: R0914: Too many local variables (19/15) (too-many-locals)
+vmc_bosons_serial.py:262:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
 ************* Module vmc_bosons_parallel
-vmc_bosons_parallel.py:267:0: C0305: Trailing newlines (trailing-newlines)
-vmc_bosons_parallel.py:35:0: E0611: No name 'MPI' in module 'mpi4py' (no-name-in-module)
-vmc_bosons_parallel.py:72:22: W0621: Redefining name 'alpha' from outer scope (line 201) (redefined-outer-name)
-vmc_bosons_parallel.py:72:29: W0621: Redefining name 'beta' from outer scope (line 202) (redefined-outer-name)
-vmc_bosons_parallel.py:78:4: C0103: Variable name "R2" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:84:25: W0621: Redefining name 'alpha' from outer scope (line 201) (redefined-outer-name)
-vmc_bosons_parallel.py:84:32: W0621: Redefining name 'beta' from outer scope (line 202) (redefined-outer-name)
-vmc_bosons_parallel.py:94:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_parallel.py:95:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_parallel.py:100:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_parallel.py:101:24: C0321: More than one statement on a single line (multiple-statements)
-vmc_bosons_parallel.py:109:4: C0103: Variable name "R2" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:119:0: C0103: Function name "run_MC" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:119:11: C0103: Argument name "MCcycles" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:119:0: R0914: Too many local variables (16/15) (too-many-locals)
-vmc_bosons_parallel.py:119:21: W0621: Redefining name 'delta' from outer scope (line 205) (redefined-outer-name)
-vmc_bosons_parallel.py:119:28: W0621: Redefining name 'alpha' from outer scope (line 201) (redefined-outer-name)
-vmc_bosons_parallel.py:119:35: W0621: Redefining name 'beta' from outer scope (line 202) (redefined-outer-name)
-vmc_bosons_parallel.py:125:4: W0621: Redefining name 'esum' from outer scope (line 208) (redefined-outer-name)
-vmc_bosons_parallel.py:126:4: W0621: Redefining name 'squaresum' from outer scope (line 208) (redefined-outer-name)
-vmc_bosons_parallel.py:127:4: W0621: Redefining name 'N' from outer scope (line 208) (redefined-outer-name)
-vmc_bosons_parallel.py:128:4: W0621: Redefining name 'accepted' from outer scope (line 208) (redefined-outer-name)
-vmc_bosons_parallel.py:127:4: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:137:8: C0103: Variable name "P_trial" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:138:8: C0103: Variable name "P" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:148:12: C0103: Variable name "EL" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:151:12: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
-vmc_bosons_parallel.py:160:15: W0621: Redefining name 'delta' from outer scope (line 205) (redefined-outer-name)
-vmc_bosons_parallel.py:160:22: W0621: Redefining name 'alpha' from outer scope (line 201) (redefined-outer-name)
-vmc_bosons_parallel.py:160:29: W0621: Redefining name 'beta' from outer scope (line 202) (redefined-outer-name)
-vmc_bosons_parallel.py:162:13: W0621: Redefining name 'accepted' from outer scope (line 208) (redefined-outer-name)
-vmc_bosons_parallel.py:166:19: W0621: Redefining name 'alpha' from outer scope (line 201) (redefined-outer-name)
-vmc_bosons_parallel.py:166:26: W0621: Redefining name 'beta' from outer scope (line 202) (redefined-outer-name)
-vmc_bosons_parallel.py:192:14: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
-vmc_bosons_parallel.py:205:8: C0103: Constant name "delta" doesn't conform to UPPER_CASE naming style (invalid-name)
-vmc_bosons_parallel.py:246:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
-vmc_bosons_parallel.py:34:0: C0411: standard import "random.random" should be placed before third party import "numpy.zeros" (wrong-import-order)
-vmc_bosons_parallel.py:36:0: C0411: standard import "time" should be placed before third party imports "numpy.zeros", "mpi4py.MPI" (wrong-import-order)
-vmc_bosons_parallel.py:192:14: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+vmc_bosons_parallel.py:72:22: W0621: Redefining name 'alpha' from outer scope (line 206) (redefined-outer-name)
+vmc_bosons_parallel.py:72:29: W0621: Redefining name 'beta' from outer scope (line 207) (redefined-outer-name)
+vmc_bosons_parallel.py:78:4: W0621: Redefining name 'r_sq' from outer scope (line 224) (redefined-outer-name)
+vmc_bosons_parallel.py:84:25: W0621: Redefining name 'alpha' from outer scope (line 206) (redefined-outer-name)
+vmc_bosons_parallel.py:84:32: W0621: Redefining name 'beta' from outer scope (line 207) (redefined-outer-name)
+vmc_bosons_parallel.py:112:4: W0621: Redefining name 'r_sq' from outer scope (line 224) (redefined-outer-name)
+vmc_bosons_parallel.py:122:0: R0914: Too many local variables (16/15) (too-many-locals)
+vmc_bosons_parallel.py:122:30: W0621: Redefining name 'alpha' from outer scope (line 206) (redefined-outer-name)
+vmc_bosons_parallel.py:122:37: W0621: Redefining name 'beta' from outer scope (line 207) (redefined-outer-name)
+vmc_bosons_parallel.py:130:4: W0621: Redefining name 'esum' from outer scope (line 213) (redefined-outer-name)
+vmc_bosons_parallel.py:131:4: W0621: Redefining name 'squaresum' from outer scope (line 213) (redefined-outer-name)
+vmc_bosons_parallel.py:132:4: W0621: Redefining name 'num_samples' from outer scope (line 213) (redefined-outer-name)
+vmc_bosons_parallel.py:133:4: W0621: Redefining name 'accepted' from outer scope (line 213) (redefined-outer-name)
+vmc_bosons_parallel.py:165:22: W0621: Redefining name 'alpha' from outer scope (line 206) (redefined-outer-name)
+vmc_bosons_parallel.py:165:29: W0621: Redefining name 'beta' from outer scope (line 207) (redefined-outer-name)
+vmc_bosons_parallel.py:167:13: W0621: Redefining name 'accepted' from outer scope (line 213) (redefined-outer-name)
+vmc_bosons_parallel.py:171:19: W0621: Redefining name 'alpha' from outer scope (line 206) (redefined-outer-name)
+vmc_bosons_parallel.py:171:26: W0621: Redefining name 'beta' from outer scope (line 207) (redefined-outer-name)
+vmc_bosons_parallel.py:210:8: C0103: Constant name "opt_delta" doesn't conform to UPPER_CASE naming style (invalid-name)
+vmc_bosons_parallel.py:254:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
 vmc_bosons_parallel.py:1:0: R0801: Similar lines in 2 files
-==vmc_bosons_parallel:[51:182]
-==vmc_bosons_serial:[33:181]
-MCYCLES2  = 10000    # MC cycles for delta optimisation
+==vmc_bosons_parallel:[51:187]
+==vmc_bosons_serial:[33:186]
+MCYCLES2 = 10000   # MC cycles for delta optimisation
 DELTA_MIN = 0.01
 DELTA_MAX = 3.0
 TOLERANCE = 0.01
-HARD_CORE = 0.0043   # hard sphere diameter a
-OMEGA     = 1.0      # harmonic trap frequency
-H         = 0.001    # finite difference step for numerical local energy
-NDIM      = 3        # number of dimensions
+HARD_CORE = 0.0043  # hard sphere diameter a
+OMEGA = 1.0         # harmonic trap frequency
+H = 0.001           # finite difference step for numerical local energy
+NDIM = 3            # number of dimensions
 
 
 # =============================================================================
@@ -97,8 +47,8 @@ def has_singularity(r1, r2):
     Check for hard-core overlap between particles.
     Adapted from hasSingularity() in original Helium code.
     """
-    d12 = sqrt(sum((r1[k]-r2[k])**2 for k in range(NDIM)))
-    return d12 < HARD_CORE
+    dist = sqrt(sum((r1[k]-r2[k])**2 for k in range(NDIM)))
+    return dist < HARD_CORE
 
 
 def psi_trial(r1, r2, alpha, beta):
@@ -112,10 +62,10 @@ def psi_trial(r1, r2, alpha, beta):
 
     Replaces Psi_trial() from original Helium code.
     """
-    R2  = sum(r1[k]**2 for k in range(NDIM)) + sum(r2[k]**2 for k in range(NDIM))
-    d12 = sqrt(sum((r1[k]-r2[k])**2 for k in range(NDIM)))
-    u   = d12 / (1.0 + beta * d12)
-    return exp(-alpha * R2 / 2.0 + u)
+    r_sq = sum(r1[k]**2 for k in range(NDIM)) + sum(r2[k]**2 for k in range(NDIM))
+    dist = sqrt(sum((r1[k]-r2[k])**2 for k in range(NDIM)))
+    u = dist / (1.0 + beta * dist)
+    return exp(-alpha * r_sq / 2.0 + u)
 
 
 def local_energy(r1, r2, alpha, beta):
@@ -130,68 +80,73 @@ def local_energy(r1, r2, alpha, beta):
     Replaces E_local() from original Helium code.
     """
     psi0 = psi_trial(r1, r2, alpha, beta)
-
     laplacian = 0.0
+
     for coord in range(NDIM):
-        r1f = list(r1); r1f[coord] += H
-        r1b = list(r1); r1b[coord] -= H
+        r1f = list(r1)
+        r1f[coord] += H
+        r1b = list(r1)
+        r1b[coord] -= H
         laplacian += (psi_trial(r1f, r2, alpha, beta)
                       - 2*psi0
                       + psi_trial(r1b, r2, alpha, beta))
 
-        r2f = list(r2); r2f[coord] += H
-        r2b = list(r2); r2b[coord] -= H
+        r2f = list(r2)
+        r2f[coord] += H
+        r2b = list(r2)
+        r2b[coord] -= H
         laplacian += (psi_trial(r1, r2f, alpha, beta)
                       - 2*psi0
                       + psi_trial(r1, r2b, alpha, beta))
 
     laplacian /= H**2
-    ke = -0.5 * laplacian / psi0
+    kinetic = -0.5 * laplacian / psi0
+    r_sq = sum(r1[k]**2 for k in range(NDIM)) + sum(r2[k]**2 for k in range(NDIM))
+    potential = 0.5 * OMEGA**2 * r_sq
 
-    R2 = sum(r1[k]**2 for k in range(NDIM)) + sum(r2[k]**2 for k in range(NDIM))
-    pe = 0.5 * OMEGA**2 * R2
-
-    return ke + pe
+    return kinetic + potential
 
 
 # =============================================================================
 # Monte Carlo sampler — adapted from runMC() in original
 # =============================================================================
 
-def run_MC(MCcycles, delta, alpha, beta):
+def run_mc(num_cycles, delta, alpha, beta):
     """
     Metropolis MC for two bosons in 3D.
     Structure directly adapted from runMC() in original Helium code.
+
+    Returns: (energy sum, squared energy sum, sample count, accepted moves)
     """
-    esum      = 0.0
+    esum = 0.0
     squaresum = 0.0
-    N         = 0
-    accepted  = 0
+    num_samples = 0
+    accepted = 0
 
-    r1 = [0.5*(random()*2 - 1) for _ in range(NDIM)]
-    r2 = [0.5*(random()*2 - 1) for _ in range(NDIM)]
+    r1 = [0.5*(random.random()*2 - 1) for _ in range(NDIM)]
+    r2 = [0.5*(random.random()*2 - 1) for _ in range(NDIM)]
 
-    for k in range(MCcycles):
-        r1_trial = [r1[d] + delta*(random()*2 - 1) for d in range(NDIM)]
-        r2_trial = [r2[d] + delta*(random()*2 - 1) for d in range(NDIM)]
+    for k in range(num_cycles):
+        r1_trial = [r1[d] + delta*(random.random()*2 - 1) for d in range(NDIM)]
+        r2_trial = [r2[d] + delta*(random.random()*2 - 1) for d in range(NDIM)]
 
-        P_trial = psi_trial(r1_trial, r2_trial, alpha, beta)**2
-        P       = psi_trial(r1,       r2,       alpha, beta)**2
+        prob_trial = psi_trial(r1_trial, r2_trial, alpha, beta)**2
+        prob_curr = psi_trial(r1, r2, alpha, beta)**2
 
-        if P_trial > P:
+        if prob_trial > prob_curr:
             accepted += 1
             r1, r2 = r1_trial, r2_trial
-        elif random() < P_trial / P:
+        elif random.random() < prob_trial / prob_curr:
             accepted += 1
             r1, r2 = r1_trial, r2_trial
 
-        if (not has_singularity(r1, r2)) and k > MCcycles // 20:
-            EL         = local_energy(r1, r2, alpha, beta)
-            esum      += EL
-            squaresum += EL**2
-            N         += 1
+        if (not has_singularity(r1, r2)) and k > num_cycles // 20:
+            energy_local = local_energy(r1, r2, alpha, beta)
+            esum += energy_local
+            squaresum += energy_local**2
+            num_samples += 1
 
-    return esum, squaresum, N, accepted
+    return esum, squaresum, num_samples, accepted
 
 
 # =============================================================================
@@ -203,7 +158,7 @@ def difference(delta, alpha, beta):
     Returns (acceptance rate - 0.5). Zero when acceptance is 50%.
     Adapted from difference() in original Helium code.
     """
-    _, _, _, accepted = run_MC(MCYCLES2, delta, alpha, beta)
+    _, _, _, accepted = run_mc(MCYCLES2, delta, alpha, beta)
     return accepted / MCYCLES2 - 0.5
 
 
@@ -224,36 +179,42 @@ def optimise_delta(alpha, beta):
 # Parameter scan and plotting
 # =============================================================================
 
-def scan_parameters(alpha_values, beta_values):
+def scan_parameters(alpha_vals, beta_vals):
     """Scan 2D grid of (alpha, beta) and collect energy and variance.""" (duplicate-code)
 vmc_bosons_parallel.py:1:0: R0801: Similar lines in 2 files
-==vmc_bosons_parallel:[239:250]
-==vmc_bosons_serial:[249:261]
-    idx        = unravel_index(argmin(energy_grid), energy_grid.shape)
-    best_alpha = alpha_values[idx[0]]
-    best_beta  = beta_values[idx[1]]
-    best_E     = energy_grid[idx]
-    best_var   = variance_grid[idx]
+==vmc_bosons_parallel:[229:240]
+==vmc_bosons_serial:[200:211]
+            mean_e = esum / num_samples
+            mean_e2 = squaresum / num_samples
+            var = mean_e2 - mean_e**2
+            accept = accepted / MCYCLES
 
+            energy_grid[i, j] = mean_e
+            variance_grid[i, j] = var
+
+            print(f"a={alpha:.2f}  b={beta:.3f}  <E>={mean_e:+.4f}  "
+                  f"Var={var:.4f}  Accept={accept:.1%}")
+ (duplicate-code)
+vmc_bosons_parallel.py:1:0: R0801: Similar lines in 2 files
+==vmc_bosons_parallel:[261:268]
+==vmc_bosons_serial:[218:225]
+    fig = plt.figure(figsize=(9, 6))
+    axes = fig.add_subplot(111, projection="3d")
+    surf = axes.plot_surface(beta_mesh, alpha_mesh, energy_grid,
+                             cmap="coolwarm", alpha=0.85)
+    axes.set_xlabel("beta")
+    axes.set_ylabel("alpha")
+    axes.set_zlabel("<E> / a.u.") (duplicate-code)
+vmc_bosons_parallel.py:1:0: R0801: Similar lines in 2 files
+==vmc_bosons_parallel:[253:258]
+==vmc_bosons_serial:[261:267]
     print(f"\nBest parameters found:")
     print(f"  alpha    = {best_alpha:.3f}")
     print(f"  beta     = {best_beta:.3f}")
-    print(f"  <E>      = {best_E:.5f} a.u.  (expected ~3.0)")
-    print(f"  Variance = {best_var:.5f}") (duplicate-code)
-vmc_bosons_parallel.py:1:0: R0801: Similar lines in 2 files
-==vmc_bosons_parallel:[222:232]
-==vmc_bosons_serial:[195:206]
-            E      = esum / N
-            E2     = squaresum / N
-            var    = E2 - E**2
-            accept = accepted / MCYCLES
+    print(f"  <E>      = {best_energy:.5f} a.u.  (expected ~3.0)")
+    print(f"  Variance = {best_var:.5f}")
+ (duplicate-code)
 
-            energy_grid[i, j]   = E
-            variance_grid[i, j] = var
-
-            print(f"a={alpha:.2f}  b={beta:.3f}  <E>={E:+.4f}  "
-                  f"Var={var:.4f}  Accept={accept:.1%}") (duplicate-code)
-
------------------------------------
-Your code has been rated at 7.63/10
+------------------------------------------------------------------
+Your code has been rated at 9.18/10 (previous run: 7.63/10, +1.55)
 
