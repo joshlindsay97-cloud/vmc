@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
 """
 Variational Monte Carlo (VMC) for the hydrogen atom 1s ground state.
 
+Author: Josh Lindsay, University of Strathclyde (2025)
 Tasks 1 and 2 of PH510 Assignment 5.
 Atomic units: e = hbar = me = 1. Energy in Hartree.
 """

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Variational Monte Carlo for two hard-sphere bosons in a 3D harmonic trap.
 Parallelised version using mpi4py (MPI for Python).
@@ -8,7 +7,7 @@ as found in the repository:
     Hjorth-Jensen, M. "Advanced Topics in Computational Physics:
     Computational Quantum Mechanics", CompPhysics/ComputationalPhysics2,
     LecturePrograms/programs/VMC-pypar/, GitHub (2021).
-    Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+    Licensed under CC0 1.0 Universal (public domain): https://creativecommons.org/publicdomain/zero/1.0/
 
 Changes from the original:
   - Updated from Python 2 to Python 3 (xrange -> range, print statements)
